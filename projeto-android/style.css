@@ -1,0 +1,154 @@
+@font-face {
+    font-family: 'android';
+    src: url(./fontes/idroid.otf) format(truetype);
+}
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&display=swap');
+
+header{
+    background-image: linear-gradient(to top, #1B6139, #35BB71);
+    color: white;
+    text-align: center;
+    height: 145px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 10px;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.541);
+}
+
+header > h1{
+    margin-top: 20px;
+    font-family: 'Bebas Neue', Arial, Helvetica, sans-serif;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.250);
+}
+
+header > p{
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.250);
+}
+
+nav{
+    font-family: 'Bebas Neue', Arial, Helvetica, sans-serif;
+    background-color: #1B6139;
+    padding-bottom: 2px;
+}
+
+nav > a{
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
+    border-radius: 5px;
+    transition-duration: .5s;
+
+}
+
+nav > a:hover{
+    background-color: #82D9A0;
+    padding: 2px;
+}
+
+body{ 
+    margin: 0px;
+    background-color: #84E1AD;
+    
+    
+}
+
+main{
+    min-width: 300px;
+    max-width: 800px;
+    
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+    word-wrap: break-word;
+    padding: 8px;
+    text-align: justify;
+    border-radius: 0px 0px 6px  6px;
+    box-shadow: 0px 1px 7px 1px rgba(0, 0, 0, 0.568);
+}
+
+h1{ 
+    margin: 0px 0px 20px 0px;
+}
+
+p{
+    text-indent: 40px;
+}
+
+#unico{
+    text-align: center;
+    text-indent: 0px;
+}
+
+.fonte{ 
+    font-family: 'android', Arial, Helvetica, sans-serif;
+    color: #23593A;
+}
+
+.led{
+    background-image: linear-gradient(to right, #b8e9ce 20%, #c7f3db, #ffffffc7 90%  );
+}
+
+img{
+    display: block;
+    margin: auto;
+    
+}
+
+.center-video{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #185936;
+    max-width: 800px;
+    padding: 15px 10px;
+    margin: 0px -8px 16px -8px;
+    
+
+}
+
+.container{
+    background-color: #84E1AD;
+    border-radius: 0px 0px 5px 5px;
+    padding: 5px;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.300);
+    
+}
+
+#caixa{
+    background-color: #2FA866;
+}
+
+.primeira-versao{
+    
+    font-family: 'Anton', sans-serif;
+    color: #23593A;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+#faixa{
+    background-color: #2FA866;
+    color: white;
+    margin: 10px 0px 0px 0px;
+    border-radius: 5px 5px 0px 0px;
+    padding: 6px 0px 6px 6px
+    
+}
+
+#listas{
+    display: flex;
+    justify-content: space-around;
+}
+
+ul > a{
+    color: black;
+}
+
+footer{
+    background-color:#185936 ;
+    text-align: center;
+    color: white;
+    margin: 10px 0px 0px 0px;
+    padding: 5px;
+}

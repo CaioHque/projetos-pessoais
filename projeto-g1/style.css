@@ -1,0 +1,78 @@
+:root{
+    --cor-principal:#C4170C;
+    --cor-1:#0669DE; 
+    --cor-2:#06AA48;
+    --cor-3:#FF6700;
+    --cor-4:#1E4C9A;
+    --cor-5: #EE2033;
+    
+}
+
+
+nav{
+    background-color: white;
+    margin-bottom: 10px;
+    padding: 0 0 0 5px;
+    
+}
+
+nav > a{
+    margin-right: 5px;
+}
+
+nav > aside.assinatura{
+    display: inline-block;
+    text-align: right;
+    text-decoration: none;
+    font-size: 20px;
+    
+}
+
+#color1{
+    color: #0669DE;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+#color2{
+    color: #C4170C;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+#color3{
+    color: #06AA48;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+#color4{
+    color: #FF6700;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+#color5{
+    color: #EE2033;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+#color6{
+    color: #1E4C9A;
+    text-decoration: none;
+    font-weight: bolder;
+}
+    header{
+        background-color: #C4170C;
+        color: white;
+    }
+
+    div.faixa-central > a{
+        text-decoration: none;
+        color: white;
+
+    }
+
+
+    

@@ -5,8 +5,7 @@ body{
 header{
     background-color: black;
     text-align: center;
-    padding: 20px;
-    height: 200px;
+    height: 170px;
 
     
 }
@@ -18,8 +17,48 @@ header > h1{
     
 }
 
-header > p{
+p#topo{
     margin-top: 0px;
     color: white;
-    font-weight: normal;
+    font-weight: lighter;
+    margin: auto;
+}
+
+p{
+    width: 200px;
+    max-height: 350px;
+    word-wrap: break-word;
+    line-height: 1.5em;
+}
+
+div > main{
+    max-height: 400px;
+    
+
+}
+
+main{
+    
+    width: 100vh;
+    padding-left: 10px;
+} 
+
+section.imagem-1{
+    background: black url(imagens/background001.jpg) center center no-repeat fixed;
+    background-size: cover;
+
+}
+
+
+
+section.imagem-2{
+    width: 100%;
+    background: black url(imagens/background002.jpg) center center no-repeat fixed;    
+    background-size: cover;
+}
+
+.fundos{
+    padding: 5px 0px 5px 10px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.226);
 }

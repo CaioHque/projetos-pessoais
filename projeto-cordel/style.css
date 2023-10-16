@@ -1,0 +1,25 @@
+body{
+    margin: 0px 0px;
+}
+
+header{
+    background-color: black;
+    text-align: center;
+    padding: 20px;
+    height: 200px;
+
+    
+}
+
+header > h1{
+    color: white;
+    margin: 0px;
+    
+    
+}
+
+header > p{
+    margin-top: 0px;
+    color: white;
+    font-weight: normal;
+}

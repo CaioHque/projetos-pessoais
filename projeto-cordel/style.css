@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Passion+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+
 body{
     margin: 0px 0px;
 }
@@ -6,13 +11,15 @@ header{
     background-color: black;
     text-align: center;
     height: 170px;
-
     
 }
 
 header > h1{
     color: white;
     margin: 0px;
+    font-family: 'Passion One', sans-serif;
+    font-weight: bolder;
+    font-size: 50px;
     
     
 }
@@ -31,16 +38,24 @@ p{
     line-height: 1.5em;
 }
 
-div > main{
-    max-height: 400px;
-    
+main > div{
+    height: 400px;
+    width: 100vw;
+    padding-left: 10px;
+    box-shadow: black 1px 1px 5px;
+}
 
+main > section{
+    height: 400px;
+    width: 100vw;
 }
 
 main{
-    
-    width: 100vh;
-    padding-left: 10px;
+    width: 100vw;
+    margin: 0px;
+    font-family: 'Sriracha', sans-serif; 
+    font-size: 18px;
+   
 } 
 
 section.imagem-1{

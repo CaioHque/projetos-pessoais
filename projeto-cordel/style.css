@@ -2,61 +2,65 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
 
-
-body{
-    margin: 0px 0px;
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html, body{
+    min-height: 100vh;
+    background-color: darkgray;
 }
 
 header{
     background-color: black;
     text-align: center;
-    height: 170px;
     
 }
 
 header > h1{
+    padding-top: 50px;
     color: white;
-    margin: 0px;
     font-family: 'Passion One', sans-serif;
     font-weight: bolder;
-    font-size: 50px;
-    
+    font-size: 70px;
+    font-variant: small-caps;
+}
+
+p{
+    width: 100vw
     
 }
 
 p#topo{
+    padding-bottom: 50px;
     margin-top: 0px;
     color: white;
     font-weight: lighter;
-    margin: auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-p{
-    width: 200px;
-    max-height: 350px;
-    word-wrap: break-word;
-    line-height: 1.5em;
+a{
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    
 }
 
-main > div{
-    height: 400px;
+a:hover{
+    text-decoration: underline;
+    transition-delay: 0.5s;
+}
+
+div{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
     width: 100vw;
-    padding-left: 10px;
+    padding-left: 30px;
     box-shadow: black 1px 1px 5px;
 }
 
-main > section{
-    height: 400px;
-    width: 100vw;
-}
 
-main{
-    width: 100vw;
-    margin: 0px;
-    font-family: 'Sriracha', sans-serif; 
-    font-size: 18px;
-   
-} 
+
 
 section.imagem-1{
     background: black url(imagens/background001.jpg) center center no-repeat fixed;
@@ -72,8 +76,25 @@ section.imagem-2{
     background-size: cover;
 }
 
-.fundos{
+section > p{
+    width: 250px;
     padding: 5px 0px 5px 10px;
     color: white;
     background-color: rgba(0, 0, 0, 0.226);
+}
+
+
+
+footer{
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+
+}
+
+footer > p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: lighter;
+    width: 100vw;
 }

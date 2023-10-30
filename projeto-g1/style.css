@@ -8,16 +8,25 @@
     
 }
 
+body{
+    margin: 0;
+}
 
 nav{
     background-color: white;
     margin-bottom: 10px;
-    padding: 0 0 0 5px;
-    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    height: 40px;
 }
 
-nav > a{
-    margin-right: 5px;
+#navegacao > a{
+    /* margin-right: 10px; */
+    border-right: 1px solid rgba(0, 0, 0, 0.438) ;
+    padding: 4px;
+    
 }
 
 nav > aside.assinatura{
@@ -66,6 +75,10 @@ nav > aside.assinatura{
     header{
         background-color: #C4170C;
         color: white;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0px 15px;
     }
 
     div.faixa-central > a{
